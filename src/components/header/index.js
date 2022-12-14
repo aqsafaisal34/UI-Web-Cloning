@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Button from "react-bootstrap/Button";
-import background from "../../assets/backimage1.jpeg";
+import background from "../../assets/images3.jpeg";
 import {useNavigate } from "react-router-dom";
 import Navbar from '../../components/navbar'
 
