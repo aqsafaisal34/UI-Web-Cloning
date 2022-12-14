@@ -95,8 +95,6 @@ function Buy() {
     </Card>
       </Col>
       </Row>
-    </Container>
-    <Container>
     <Row>
       <Col className='area'>
       <h2>Investment Projects to put your money in motion</h2>
@@ -141,8 +139,7 @@ function Buy() {
      
       </Row>
 
-    </Container>
-    <Container>
+   
     <Row>
       <Col className='area'>
       <h2>Area Guide</h2>

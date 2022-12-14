@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.event-blog{
+    font-weight: normal;
+     margin-top: 20px;
+}
+
 ul{
    list-style: none; 
 }
@@ -5,5 +13,20 @@ ul{
     font-weight: bold;
 }
 .Content{
-    margin-top: 20px;
+    margin-top: 30px;
+}
+.Blogs{
+    margin-top: 30px;
+}
+#tips{
+    border:1px solid grey;
+    border-radius:10px;
+}
+.apps{
+    display:flex;
+    flex-wrap: wrap;
+}
+.apps>Button{
+    margin-right: 5px;
+    padding:10px;
 }

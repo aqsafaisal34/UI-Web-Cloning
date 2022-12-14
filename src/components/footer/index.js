@@ -6,6 +6,9 @@ import Col from "react-bootstrap/Col";
 
 
 
+
+
+
 function Footer() {
   return (
     <div>
@@ -38,6 +41,7 @@ function Footer() {
         </Col>
         <Col lg={3}>
         <h6>Follow</h6>
+       
         <h6>Search Property by Id</h6>
         <input type='text' placeholder='Property Id' id='input-box' />
 

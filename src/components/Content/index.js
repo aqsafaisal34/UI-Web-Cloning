@@ -2,11 +2,48 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import "./style.css";
 
 function Content() {
   return (
     <div>
+    <Container className='event-blog'>
+      <Row>
+        <Col lg={12} className='Event'>
+          <h3>Graana Events</h3>
+          <p>Explore amenities and things to do in your local area</p>
+          <button id='see-more'>See More</button>
+        </Col>
+      </Row>
+      <Row>
+        <Col lg={6} md={12} sm={12} className='Blogs'>
+          <h3>Graana Blogs</h3>
+          <h5>Let us help you navigate the renting, buying, selling & investing experience.</h5>
+          <p>Find answers to all of your property relative questions with the best guides in the galaxy.</p>
+          <Button variant='danger' size='md'>Read More</Button>
+        </Col>
+        <Col lg={6} md={12} sm={12} className='Blogs' id='tips'>
+          <h3>Want more tips on flat living?</h3>
+          <p>News| Articles| Tips & Tricks</p>
+          <p>We're sharing everything you need to know about property relative information</p>
+          <button id='read-more'>Read More</button>
+        </Col>
+      </Row>
+      <hr />
+      <Row>
+        <Col lg={12} md={12} sm={12}>
+        <h3>There's more to experience in the app</h3>
+        <p>Download the App on App Store, Play Store & App Gallery.</p>
+        <div className='apps'>
+        <Button variant='outline-dark' size='lg'>Available on PlayStore</Button>
+        <Button variant='outline-dark' size='lg'>Available on PlayStore</Button>
+        <Button variant='outline-dark' size='lg'>Available on PlayStore</Button>
+        </div>
+        </Col>
+      </Row>
+      <hr />
+    </Container>
       <Container className="Content">
         <Row>
           <Col>

@@ -9,6 +9,7 @@ import Content from "./components/Content";
 import Navbar from './components/navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <Router>

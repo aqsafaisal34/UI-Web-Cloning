@@ -16,7 +16,7 @@ function Header() {
           backgroundRepeat: "no-repeat",
           height: "100vh",
           backgroundSize: "cover",
-          width: "100%",
+          maxWidth: "100%",
         }}
       >
        <Navbar />
