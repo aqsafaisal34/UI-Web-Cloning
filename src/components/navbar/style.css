@@ -1,0 +1,23 @@
+.head-sec1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.head-sec1>.logo{
+   margin: 10px 5px;
+}
+.head-sec1>.buttons{
+    margin: 10px 5px;
+}
+.buttons>#login{
+    margin-right: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    color: white;
+    margin: 10px 0;
+
+}

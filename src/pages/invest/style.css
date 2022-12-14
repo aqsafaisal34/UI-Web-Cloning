@@ -1,0 +1,7 @@
+.sticky{
+    width:100%;
+    position:sticky;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: 2px 6px 8px 0px rgba(114, 106, 106, 0.148);
+}
