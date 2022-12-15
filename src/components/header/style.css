@@ -1,13 +1,9 @@
-*{
-    box-sizing: border-box;
-    padding:0;
-    margin:0;
-}
 .header{
     color: white;
 }
 
 .head-sec1{
+   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,13 +13,17 @@
     margin-top: 100px;
     text-align: center;
 }
-.buttons{
+.nav-button{
     display: flex;
     justify-content: center;
     background: transparent;
     color: white;
     margin: 10px 0;
+  
 
+}
+.nav-button>Button{
+    font-weight: bolder;
 }
 .input-box{
     text-align: center;
@@ -51,5 +51,16 @@
 .nav-text>Button{
     margin-top: 10px;
     text-align: center;
+}
+@media screen and (max-width:800px) {
+    .input-box>input{
+        width:100%;
+    }
+}
+@media screen and (max-width:375px) {
+    .nav-text>Button{
+        display: none;
+    }
+
 }
 

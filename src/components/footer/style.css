@@ -6,13 +6,13 @@ button{
     border:none;
     display:flex;
     flex-direction: column;
-  
+    
     background-color: white;
 }
-.copyright{
-    display:flex;
-    justify-content:space-between;
-    background-color: #f2f2f2;
+#copyright{
+    margin-top: 20px;
+    font-size: larger;
+   
 }
 button:hover{
     color: rgb(235, 88, 8);
@@ -22,12 +22,14 @@ button:hover{
 
 }
 #input-box{
-    padding: 5px 0;
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 @media screen and (max-width:780px) {
     .vline{
         border-right:none;
         border-bottom: 1px solid grey;
+        margin:10px 0;
     }
     
 }

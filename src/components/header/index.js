@@ -17,11 +17,12 @@ function Header() {
           height: "100vh",
           backgroundSize: "cover",
           maxWidth: "100%",
+         
         }}
       >
        <Navbar />
         <p id='text'>Pakistan's 1st Online Real Estate Marketplace</p>
-        <div className="buttons">
+        <div className="nav-button">
           <Button variant="outline-light" size="md" onClick={() => navigate( '/')}>
           Buy
           </Button>{" "}

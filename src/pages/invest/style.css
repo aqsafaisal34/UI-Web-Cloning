@@ -1,6 +1,14 @@
-
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.buttons>Button{
+   
+    margin: 5px 10px;
+}
 .sticky{
-    width:100%;
+    max-width: 100%;
     position:sticky;
     top: 0;
     box-shadow: 2px 6px 8px 0px rgba(114, 106, 106, 0.148);
@@ -9,31 +17,34 @@
 
 }
 .logo2{
-    margin: 5px;
+     display: flex;
+     justify-content: space-between;
+     margin: 5px 10px;
 }
-#invest-text{
-    word-wrap: break-word;
-    
-}
-.box{
+
+.card1{
     border:1px solid grey;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
     padding:5px;
     margin-bottom: 10px;
-    box-sizing: border-box;
+}
+.head-sec1{
+    display: flex;
+    justify-content: space-between;
 }
 @media screen and (max-width:780px) {
     .buttons{
        display:none;
     }
-    .box{
-        box-sizing: border-box;
+    .card1{
         border:none;
-        word-wrap: break-word;
+    }   
+    .logo2{
+        margin: auto;
     }
-    
-    
-    
+    .card1>img{
+        width:320px;
+    }
 }

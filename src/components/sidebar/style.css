@@ -1,0 +1,27 @@
+.sidebar-icon{
+    display: flex;
+    justify-content: space-between;
+    display:none;
+}
+
+.nav>ul{
+    list-style: none;
+    
+}
+.nav>ul>li>{
+    
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+}
+.Icon{
+    margin-left: 10px;
+    font-size: xx-large;
+}
+@media screen and (min-width:900px) {
+    .sidebar-icon{
+        display:none;
+    }
+}

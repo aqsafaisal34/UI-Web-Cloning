@@ -12,7 +12,8 @@ import Col from "react-bootstrap/Col";
 function Invest() {
   return (
     <>
-      <div className="sticky">
+     
+     <div className="sticky">
         <div className="head-sec1">
           <div className="logo2">
             <img src={Logo2} alt="" width="180px" height="60px"/>
@@ -27,7 +28,7 @@ function Invest() {
           </div>
         </div>
       </div>
-      <Container>
+        <Container>
         <Row>
           <Col id="invest-text">
             <h2>Best Investment in Pakistan</h2> <br />
@@ -74,11 +75,11 @@ function Invest() {
           </Col>
         </Row>
         <Row>
-          <div class="box">
+          <div class="card1">
             <Col lg={6} md={12} sm={12}>
               <img src={Box1} alt="" width="550px" height="400px" />
             </Col>
-            <Col lg={4} md={12} sm={12}>
+            <Col lg={6} md={12} sm={12}>
               <h4>Grand Bazaar</h4>
               <p>Islamabad</p>
               <p>
@@ -99,15 +100,13 @@ function Invest() {
               </Button>
             </Col>
           </div>
-
-          <Col lg={2}></Col>
         </Row>
         <Row>
-          <div class="box">
+          <div class="card1">
             <Col lg={6} md={12} sm={12}>
               <img src={Box2} alt="" width="550px" height="400px" />
             </Col>
-            <Col lg={4} md={12} sm={12}>
+            <Col lg={6} md={12} sm={12}>
               <h4>Bavylon</h4>
               <p>DHA,Multan</p>
               <p>
@@ -128,15 +127,13 @@ function Invest() {
               </Button>
             </Col>
           </div>
-
-          <Col lg={2}></Col>
         </Row>
         <Row>
-          <div class="box">
+          <div class="card1">
             <Col lg={6} md={12} sm={12}>
               <img src={Box3} alt="" width="550px" height="400px" />
             </Col>
-            <Col lg={4} md={12} sm={12}>
+            <Col lg={6} md={12} sm={12}>
               <h4>Downtown</h4>
               <p>Islamabad</p>
               <p>
@@ -159,8 +156,6 @@ function Invest() {
               </Button>
             </Col>
           </div>
-
-          <Col lg={2}></Col>
         </Row>
       </Container>
     </>

@@ -9,11 +9,11 @@ function Navbar() {
     <div className="logo">
       <img src={logo} alt="" />
     </div>
-    <div className="buttons">
-      <Button variant="danger" id="login">
+    <div id='auth-btn'>
+      <Button variant="danger" id="login" size='md'>
         Login
       </Button>
-      <Button variant="danger" id="signup">
+      <Button variant="danger" id="signup" size='md'>
         SignUp
       </Button>
     </div>

@@ -4,20 +4,20 @@
     justify-content: space-between;
 }
 .head-sec1>.logo{
-   margin: 10px 5px;
+   margin: 5px 5px;
+
 }
-.head-sec1>.buttons{
-    margin: 10px 5px;
-}
-.buttons>#login{
+#auth-btn>#login{
     margin-right: 10px;
 }
 
-.buttons{
+#auth-btn{
     display: flex;
     justify-content: center;
-    background: transparent;
-    color: white;
     margin: 10px 0;
-
+}
+@media screen and (max-width:900px) {
+    #auth-btn{
+        display:none;
+    }
 }
