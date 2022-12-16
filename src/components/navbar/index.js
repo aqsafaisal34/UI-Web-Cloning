@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="head-sec1">
     <div className="logo">
-      <img src={logo} alt="" />
+      <img src={logo} alt="" width='181px' height='35px' />
     </div>
     <div id='auth-btn'>
       <Button variant="danger" id="login" size='md'>

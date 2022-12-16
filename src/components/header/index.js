@@ -37,8 +37,8 @@ function Header() {
           <input type="text" placeholder="Enter your Location" />
         </div>
         <div className="nav-text">
-          <h5>Don't want the hassle?</h5>
-          <h1> Let us handle everything for you! </h1>
+          <h5 id='line'>Don't want the hassle?</h5>
+          <h1 id='line2'> Let us handle everything for you! </h1>
           <Button variant="danger" size="lg">
             Wanted
           </Button>{" "}

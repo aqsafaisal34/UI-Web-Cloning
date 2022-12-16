@@ -43,8 +43,20 @@ function Buy() {
         </Col>
       </Row>
       <Row className='cards'>
-      <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Col lg={3} class='col'>
+      <Card style={{ width: '205px' }}>
+      <Card.Img variant="top" src={Card1Img} className='img' />
+      <Card.Body>
+        <Card.Text>
+          B-17
+        </Card.Text>
+        <hr />
+        <p>14 on Rent | <span>233 on Sale</span></p>
+      </Card.Body>
+    </Card>
+      </Col>
+      <Col lg={3} class='col'>
+      <Card style={{ width: '205px' }}>
       <Card.Img variant="top" src={Card1Img} className='img' />
       <Card.Body>
         <Card.Text>
@@ -56,7 +68,7 @@ function Buy() {
     </Card>
       </Col>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{ width: '205px'  }}>
       <Card.Img variant="top" src={Card2Img} className='img'/>
       <Card.Body>
         
@@ -69,7 +81,7 @@ function Buy() {
     </Card>
       </Col>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{ width: '205px'  }}>
       <Card.Img variant="top" src={Card3Img} className='img' />
       <Card.Body>
         
@@ -81,8 +93,8 @@ function Buy() {
       </Card.Body>
     </Card>
       </Col>
-      <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Col lg={3} >
+      <Card style={{  width: '205px'  }}>
       <Card.Img variant="top" src={Card4Img} className='img'/>
       <Card.Body>
         
@@ -158,7 +170,7 @@ function Buy() {
       </Row>
       <Row className='cards'>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{width: '205px'}}>
       <Card.Img variant="top" src={Card1Img} className='img' />
       <Card.Body>
         <Card.Text>
@@ -170,7 +182,7 @@ function Buy() {
     </Card>
       </Col>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{width: '205px'}}>
       <Card.Img variant="top" src={Card2Img} className='img'/>
       <Card.Body>
         
@@ -183,7 +195,7 @@ function Buy() {
     </Card>
       </Col>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{width: '205px'}}>
       <Card.Img variant="top" src={Card3Img} className='img' />
       <Card.Body>
         
@@ -196,7 +208,20 @@ function Buy() {
     </Card>
       </Col>
       <Col lg={3}>
-      <Card style={{ width: '16rem' }}>
+      <Card style={{width: '205px'}}>
+      <Card.Img variant="top" src={Card4Img} className='img'/>
+      <Card.Body>
+        
+        <Card.Text>
+          Zamzama City
+        </Card.Text>
+          <hr />
+        <p>25 on Rent | <span>130 on Sale</span></p>
+      </Card.Body>
+    </Card>
+      </Col>
+      <Col lg={3}>
+      <Card style={{width: '205px'}}>
       <Card.Img variant="top" src={Card4Img} className='img'/>
       <Card.Body>
         
