@@ -16,13 +16,13 @@ function Invest() {
      <div className="sticky">
         <div className="head-sec1">
           <div className="logo2">
-            <img src={Logo2} alt="" width="180px" height="60px"/>
+            <img src={Logo2} alt="" width="181px" height="35px"/>
           </div>
           <div className="buttons">
-            <Button variant="danger" id="login" size="lg">
+            <Button variant="danger" id="login" size="sm">
               Login
             </Button>
-            <Button variant="danger" id="signup" size="lg">
+            <Button variant="danger" id="signup" size="sm">
               SignUp
             </Button>
           </div>
@@ -63,8 +63,8 @@ function Invest() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <h5>Find Real Estate Projects in Pakistan</h5>
+          <Col id='project-text'>
+            <h2>Find Real Estate Projects in Pakistan</h2>
             <p>Discover ongoing and completed projects in just one click</p>
             <p>Showing 1 - 14 project(s) of 14 in 'Pakistan'</p>
           </Col>

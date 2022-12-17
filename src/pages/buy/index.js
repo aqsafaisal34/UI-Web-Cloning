@@ -14,6 +14,10 @@ import InvImg2 from '../../assets/InvImg2.webp';
 import BackImg8 from '../../assets/backImg8.webp';
 import Header from "../../components/header";
 import Content from "../../components/Content";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+ faHome,
+} from "@fortawesome/free-solid-svg-icons";
 
 
 function Buy() {
@@ -23,7 +27,7 @@ function Buy() {
     <Container className='body-content'>
      <Row>
       <Col className='area'>
-      <h2>Top areas by city</h2>
+      <h6>Top areas by city</h6>
       </Col>
      </Row>
       <Row>
@@ -39,11 +43,17 @@ function Buy() {
       </Row>
       <Row>
         <Col className='quantity'>
-       <p>For Rent 2655 | <span>For Sale 3668</span></p>
+        <FontAwesomeIcon
+                    icon={faHome}
+                    id='home-icon'
+                    active
+                    size="sm"
+                  />
+       <p>For Rent 2655 |<span>For Sale 3668</span></p>
         </Col>
       </Row>
       <Row className='cards'>
-      <Col lg={3} class='col'>
+      <Col lg={3} >
       <Card style={{ width: '205px' }}>
       <Card.Img variant="top" src={Card1Img} className='img' />
       <Card.Body>
@@ -55,7 +65,7 @@ function Buy() {
       </Card.Body>
     </Card>
       </Col>
-      <Col lg={3} class='col'>
+      <Col lg={3} >
       <Card style={{ width: '205px' }}>
       <Card.Img variant="top" src={Card1Img} className='img' />
       <Card.Body>
@@ -67,7 +77,7 @@ function Buy() {
       </Card.Body>
     </Card>
       </Col>
-      <Col lg={3}>
+      <Col lg={3} >
       <Card style={{ width: '205px'  }}>
       <Card.Img variant="top" src={Card2Img} className='img'/>
       <Card.Body>
@@ -93,7 +103,7 @@ function Buy() {
       </Card.Body>
     </Card>
       </Col>
-      <Col lg={3} >
+      <Col lg={3}  >
       <Card style={{  width: '205px'  }}>
       <Card.Img variant="top" src={Card4Img} className='img'/>
       <Card.Body>
@@ -108,8 +118,8 @@ function Buy() {
       </Col>
       </Row>
     <Row>
-      <Col className='area'>
-      <h2>Investment Projects to put your money in motion</h2>
+      <Col className='area' id='area-wise'>
+      <h6>Investment Projects to put your money in motion</h6>
       </Col>
      </Row>
      <Row className='cards'>
@@ -154,7 +164,7 @@ function Buy() {
    
     <Row>
       <Col className='area'>
-      <h2>Area Guide</h2>
+      <h6>Area Guide</h6>
       </Col>
      </Row>
       <Row>
@@ -169,7 +179,7 @@ function Buy() {
         </Col>
       </Row>
       <Row className='cards'>
-      <Col lg={3}>
+      <Col lg={3} >
       <Card style={{width: '205px'}}>
       <Card.Img variant="top" src={Card1Img} className='img' />
       <Card.Body>

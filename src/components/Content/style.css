@@ -30,3 +30,31 @@ ul{
     margin-right: 5px;
     padding:10px;
 }
+.Event>h3{
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding: 0;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+}
+.Blogs>h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 0;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+}
+.Blogs>h5{
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding: 0;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+}
+#app{
+    font-size: 1.75rem;
+    font-weight: 300;
+    padding: 0;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;  
+}

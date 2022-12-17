@@ -33,7 +33,7 @@ function Content() {
       <hr />
       <Row>
         <Col lg={12} md={12} sm={12}>
-        <h3>There's more to experience in the app</h3>
+        <h2 id='app'>There's more to experience in the app</h2>
         <p>Download the App on App Store, Play Store & App Gallery.</p>
         <div className='apps'>
         <Button variant='outline-dark' size='lg'>Available on PlayStore</Button>

@@ -1,5 +1,5 @@
 .footer{
-  margin-top: 50px;  
+  margin-top: 50px; 
 }
 
 button{
@@ -19,11 +19,21 @@ button:hover{
 }
 .vline{
     border-right: 1px solid grey;
+    margin: 10px 30px;
 
 }
 #input-box{
     padding: 5px 5px;
     border-radius: 5px;
+    width:100%;
+    display: flex;
+}
+#search-bar{
+    display: flex;
+}
+#follow{
+    margin-left: 3px;
+    border: none;
 }
 @media screen and (max-width:780px) {
     .vline{
@@ -33,3 +43,4 @@ button:hover{
     }
     
 }
+
